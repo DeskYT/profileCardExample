@@ -1,22 +1,21 @@
-body{
-  margin: 0;
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+td{
+  border: 3px solid;
+  padding: 10px;
 }
 
-/*
-  vh, vw
-  vmin, vmax
-  
-  1vmin - 1% от меньшей стороны viewport
-  1vmax - 1% от большей стороны viewport
-*/
+caption{
+  text-align: left;
+  text-indent: 2em;
+}
 
-.wrapper{
-  /*height: 100vh;
-  width: 100vw;*/
-  height: 50vmin;
-  width: 50vmax;
-  box-sizing: border-box;
+thead{
+  text-align: center;
+}
 
-  background-color: bisque;
-  border: 3px solid;
+tfoot{
+  text-align: right;
 }
